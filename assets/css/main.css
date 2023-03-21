@@ -97,3 +97,60 @@ html{
 #input_search-header:focus {
     outline: none;
 }
+
+#slide {
+    margin:52px 127px 100px 133px;
+}
+
+#silde__title-path {
+    font-size: 12px;
+    color: #9095a0;
+}
+
+.title-path-dark {
+    color: #000;
+}
+
+#silde__title-heading {
+    font-size: 40px;
+    padding: 18px 0;
+}
+
+#silde__title-starrating {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+#silde__title-starrating--number {
+    font-size: 12px;
+    padding: 0 8px;
+}
+#silde__title-starrating--reviewer {
+    color: #9095a0;
+}
+
+#slide__img {
+    display: grid;
+    grid-template-areas: 
+    'img__silde1 img__silde1 img__silde2 img__silde3'
+    'img__silde1 img__silde1 img__silde4 img__silde5'
+    ;
+    margin-top: 18px;
+}
+
+#img__silde1{
+    grid-area: img__silde1;
+}
+#img__silde2{
+    grid-area: img__silde2;
+}
+#img__silde3{
+    grid-area: img__silde3;
+}
+#img__silde4{
+    grid-area: img__silde4;
+}
+#img__silde5{
+    grid-area: img__silde5;
+}
